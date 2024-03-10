@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  background-color: #4d617b;
+  height: 100vh;
+  padding: 50px;
+}
+.outer{
+  width: 40%;
+  margin:  auto;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  background-color: white;
+}
+.box1{
+  grid-column: 1 / span 4;
+  height: 100px;
+}
+.outer div{
+  background-color: #b1c2ec;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  height: 80px;
+  border-radius: 5px;
+}
+.box2{
+  grid-column: 1 / span 2;
+}
+.equalto{
+  grid-column: 3 / span 2;  ;
+}
